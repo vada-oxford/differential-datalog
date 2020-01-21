@@ -1,0 +1,7 @@
+digraph {
+    0 [label=Phrases];
+    1 [label=Word1];
+    2 [label=Word2];
+    1 -> 0;
+    2 -> 0;
+}
