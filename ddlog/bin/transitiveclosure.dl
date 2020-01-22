@@ -1,0 +1,6 @@
+input relation Rel(arg1: string, arg2: string)
+
+output relation TransClosure(arg1: string, arg2: string)
+
+TransClosure(x,y) :- Rel(x,y).
+TransClosure(x,z) :- TransClosure(x,y), TransClosure(y,z).

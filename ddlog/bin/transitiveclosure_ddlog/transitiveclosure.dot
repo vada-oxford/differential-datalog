@@ -1,0 +1,7 @@
+digraph {
+    0 [label=Rel];
+    1 [label=TransClosure];
+    0 -> 1;
+    1 -> 1;
+    1 -> 1;
+}
